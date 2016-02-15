@@ -1,5 +1,3 @@
-<h1>{{ title }}</h1>
-
 <ul class="people">
   <li *ngFor="#person of people"
     [class.selected]="person === selectedPerson"
@@ -13,8 +11,9 @@
   </li>
 </ul>
 <div *ngIf="selectedPerson">
-  <h2>
-    {{ selectedPerson.firstName }} {{ selectedPerson.lastName }} bob
+  <my-person-detail [selectedPerson]="selectedPerson"></my-person-detail>
+  <!-- <h2>
+    {{ selectedPerson.firstName }} {{ selectedPerson.lastName }}
   </h2>
-  <button (click)="gotoDetail()">View Details</button>
+  <button (click)="gotoDetail()">View Details</button> -->
 </div>

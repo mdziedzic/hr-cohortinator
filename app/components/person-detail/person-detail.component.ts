@@ -1,4 +1,4 @@
-import { Component, OnInit } from 'angular2/core';
+import { Component, OnInit, Input } from 'angular2/core';
 import { RouteParams } from 'angular2/router';
 
 import { PeopleService } from '../../services/people/people.service';
@@ -12,6 +12,7 @@ import { Person } from '../../interfaces/person';
 })
 
 export class PersonDetailComponent {
+  @Input() selectedPerson: Person;
   person: Person;
 
   constructor(
@@ -20,7 +21,9 @@ export class PersonDetailComponent {
   }
 
   ngOnInit() {
-    let id = +this._routeParams.get('id');
+    console.log('bobby');
+    // let id = +this._routeParams.get('id');
+    let id = this.selectedPerson.id;
     this._peopleService.getPerson(id)
       .then(person => this.person = person);
   }

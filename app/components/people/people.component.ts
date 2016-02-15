@@ -9,7 +9,7 @@ import { PeopleService } from '../../services/people/people.service';
   selector: 'my-people',
   templateUrl: 'app/components/people/people.component.html',
   styleUrls: ['app/components/people/people.component.css'],
-  // directives: [PersonDetailComponent]
+  directives: [PersonDetailComponent]
 })
 
 export class PeopleComponent implements OnInit {
