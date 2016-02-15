@@ -43,8 +43,8 @@ Once the project moves into development, the press release can be used as a touc
   will be streaming through your retinas and into your visual cortex in no time.
 
 ## Customer Quote ##
-  > "HR Cohortinator is going to disrupt the way we do pairings"
+  > "HR Cohortinator is going to disrupt the way we do pairings!"
 
 ## Closing and Call to Action ##
-  > Fasten your seat belts, thanks the powers of iterative development you'll be
+  > Fasten your seat belts, thanks to the powers of iterative development you'll be
   using the HR Cohortinator in no time.
