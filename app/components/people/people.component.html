@@ -5,12 +5,10 @@
     [class.selected]="person === selectedPerson"
     [class.paired]="paired(person)"
     (click)="onSelect(person)">
-    <div class="itemLine">
+    <div class="itemLine" [class.selected]="person === selectedPerson">
       {{ person.firstName }}
       {{ person.lastName }}
       {{ person.location }}
-      <!-- {{ time }}  -->
-
     </div>
   </li>
 </ul>
