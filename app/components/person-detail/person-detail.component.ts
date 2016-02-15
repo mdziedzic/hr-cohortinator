@@ -21,8 +21,6 @@ export class PersonDetailComponent {
   }
 
   ngOnInit() {
-    console.log('bobby');
-    // let id = +this._routeParams.get('id');
     let id = this.selectedPerson.id;
     this._peopleService.getPerson(id)
       .then(person => this.person = person);
