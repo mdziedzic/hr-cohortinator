@@ -4,4 +4,5 @@ export interface Person {
   lastName: string;
   location: string;
   timeDiff: number;
+  pairs: number[];
 }
