@@ -17,6 +17,9 @@ export class PeopleComponent implements OnInit {
   public people = [];
   public selectedPerson: Person;
 
+  //public time = new Date().toLocaleTimeString();
+
+
   constructor(
     private _router: Router,
     private _peopleService: PeopleService) {
@@ -30,7 +33,15 @@ export class PeopleComponent implements OnInit {
     this._peopleService.getPeople().then(people => this.people = people);
   }
 
-  onSelect(person: Person) { this.selectedPerson = person; }
+  onSelect(person: Person) {
+    this.selectedPerson = person;
+  }
+
+  paired(person: Person) {
+    console.log(this.selectedPerson, person);
+    if (!this.selectedPerson) return false;
+    return this.selectedPerson['pairs'].indexOf(person.id) !== -1;
+  }
 
   gotoDetail() {
     this._router.navigate(['PersonDetail', { id: this.selectedPerson.id }]);

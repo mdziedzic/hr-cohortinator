@@ -1,1 +1,22 @@
 <h1>{{ title }}</h1>
+
+<ul class="people">
+  <li *ngFor="#person of people"
+    [class.selected]="person === selectedPerson"
+    [class.paired]="paired(person)"
+    (click)="onSelect(person)">
+    <div class="itemLine">
+      {{ person.firstName }}
+      {{ person.lastName }}
+      {{ person.location }}
+      <!-- {{ time }}  -->
+
+    </div>
+  </li>
+</ul>
+<div *ngIf="selectedPerson">
+  <h2>
+    {{ selectedPerson.firstName }} {{ selectedPerson.lastName }} bob
+  </h2>
+  <button (click)="gotoDetail()">View Details</button>
+</div>

@@ -1,3 +1,10 @@
-div {
-  background-color: #ccc;
+.itemLine {
+  margin: 0 0 10px 0;
+  padding: 10px;
+  background-color: #eee;
+}
+
+.paired {
+  color: #f00;
+  background-color: #f00;
 }
