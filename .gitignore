@@ -36,3 +36,6 @@ bower_components/
 
 # OS X
 .DS_Store
+
+# Angular2
+typings/
