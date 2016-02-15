@@ -38,7 +38,6 @@ export class PeopleComponent implements OnInit {
   }
 
   paired(person: Person) {
-    console.log(this.selectedPerson, person);
     if (!this.selectedPerson) return false;
     return this.selectedPerson['pairs'].indexOf(person.id) !== -1;
   }
