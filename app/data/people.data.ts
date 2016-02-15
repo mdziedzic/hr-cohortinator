@@ -7,7 +7,8 @@ export var PEOPLE: Person[] = [
     "lastName": "Tsao",
     "location": "Portland, OR",
     "timeDiff": 0,
-    "pairs": [1, 2]
+    "pairs": [1, 2],
+    "image": "steven"
   },
   {
     "id": 1,
@@ -15,7 +16,8 @@ export var PEOPLE: Person[] = [
     "lastName": "Dang",
     "location": "Irvine, CA",
     "timeDiff": 0,
-    "pairs": [0, 2]
+    "pairs": [0, 2],
+    "image": "tim"
   },
   {
     "id": 2,
@@ -23,7 +25,8 @@ export var PEOPLE: Person[] = [
     "lastName": "Dziedzic",
     "location": "Seattle, WA",
     "timeDiff": 0,
-    "pairs": [0, 1]
+    "pairs": [0, 1],
+    "image": "michael"
   },
   {
     "id": 3,
@@ -31,7 +34,8 @@ export var PEOPLE: Person[] = [
     "lastName": "Cookson",
     "location": "San Francisco, CA",
     "timeDiff": 0,
-    "pairs": [4, 5]
+    "pairs": [4, 5],
+    "image": "tyler"
   },
   {
     "id": 4,
@@ -39,7 +43,8 @@ export var PEOPLE: Person[] = [
     "lastName": "Soo",
     "location": "Phoenix, AZ",
     "timeDiff": 0,
-    "pairs": [3, 5]
+    "pairs": [3, 5],
+    "image": "john"
   },
   {
     "id": 5,
@@ -47,6 +52,7 @@ export var PEOPLE: Person[] = [
     "lastName": "Molitor",
     "location": "Los Angeles, CA",
     "timeDiff": 0,
-    "pairs": [3, 4]
+    "pairs": [3, 4],
+    "image": "dan"
   }
 ];

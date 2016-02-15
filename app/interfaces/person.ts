@@ -5,4 +5,5 @@ export interface Person {
   location: string;
   timeDiff: number;
   pairs: number[];
+  image: string;
 }
