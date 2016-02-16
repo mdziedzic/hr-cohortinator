@@ -23,12 +23,12 @@ import { PersonDetailComponent } from '../person-detail/person-detail.component'
     path: '/pairs',
     name: 'Pairs',
     component: PairsComponent,
-    useAsDefault: true
   },
   {
     path: '/people',
     name: 'People',
-    component: PeopleComponent
+    component: PeopleComponent,
+    useAsDefault: true
   },
   {
     path: '/detail/:id',
