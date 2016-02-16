@@ -1,0 +1,30 @@
+<div class="people">
+  <div *ngFor="#person of people"
+    [class.selected]="person === selectedPerson"
+    [class.paired]="paired(person)"
+    (click)="onSelect(person)">
+    <div class="avatar" [class.selected]="person === selectedPerson">
+      <!-- {{ person.firstName }}
+      {{ person.lastName }}
+      {{ person.location }} -->
+
+      <div [ngSwitch]="paired(person) || person === selectedPerson">
+        <template [ngSwitchWhen]="false">
+          <img src="../../../../images/{{ person.image }}-bw.jpg" width="100" height="100" />
+        </template>
+        <template [ngSwitchWhen]="true">
+          <img src="../../../../images/{{ person.image }}.jpg" width="100" height="100" />
+        </template>
+
+      </div>
+    </div>
+  </div>
+</div>
+<br /><br /><br />
+<div *ngIf="selectedPerson">
+  <my-person-detail [selectedPerson]="selectedPerson"></my-person-detail>
+  <!-- <h2>
+    {{ selectedPerson.firstName }} {{ selectedPerson.lastName }}
+  </h2>
+  <button (click)="gotoDetail()">View Details</button> -->
+</div>

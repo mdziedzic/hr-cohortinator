@@ -4,6 +4,7 @@ import { RouteConfig, ROUTER_DIRECTIVES, ROUTER_PROVIDERS } from 'angular2/route
 import { PeopleService } from '../../services/people/people.service';
 
 import { PeopleComponent } from '../../components/people/people.component';
+import { PairsComponent } from '../../components/pairs/pairs.component';
 import { PersonDetailComponent } from '../person-detail/person-detail.component';
 
 @Component({
@@ -19,10 +20,15 @@ import { PersonDetailComponent } from '../person-detail/person-detail.component'
 
 @RouteConfig([
   {
+    path: '/pairs',
+    name: 'Pairs',
+    component: PairsComponent,
+    useAsDefault: true
+  },
+  {
     path: '/people',
     name: 'People',
-    component: PeopleComponent,
-    useAsDefault: true
+    component: PeopleComponent
   },
   {
     path: '/detail/:id',
