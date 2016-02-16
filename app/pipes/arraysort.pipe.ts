@@ -5,7 +5,7 @@ import { Pipe } from "angular2/core";
 })
 
 export class ArraySortPipe {
-  transform(array: Array, args: string): Array {
+  transform(array: Array<any>, args: string): Array<any> {
     var sortBy = args[0];
     array.sort((a: any, b: any) => {
       if (a[sortBy] < b[sortBy]) {
