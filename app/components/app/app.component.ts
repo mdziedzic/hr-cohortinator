@@ -8,13 +8,7 @@ import { PersonDetailComponent } from '../person-detail/person-detail.component'
 
 @Component({
   selector: 'my-app',
-  template: `
-    <img src="../../../images/logo.png" width="142" />
-    <h1>{{title}}</h1>
-    <nav>
-    </nav>
-    <router-outlet></router-outlet>
-    `,
+  templateUrl: 'app/components/app/app.component.html',
   styleUrls: ['app/components/app/app.component.css'],
   directives: [ROUTER_DIRECTIVES],
   providers: [
