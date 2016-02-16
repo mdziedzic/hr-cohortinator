@@ -41,9 +41,10 @@ export class PeopleComponent implements OnInit {
     this.selectedPerson = person;
   }
 
-  paired(person: Person) {
-    if (!this.selectedPerson) return false;
-    return this.selectedPerson['pairs'].indexOf(person.id) !== -1;
+  localTime(person: Person) {
+    var utc = new Date().getTime();
+    var time = utc - (person.timeDiff - 8) * 3600000;
+    return new Date(time).toLocaleString();
   }
 
   sort(sortBy: string) {
