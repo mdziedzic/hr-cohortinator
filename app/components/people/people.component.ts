@@ -5,17 +5,21 @@ import { Person } from '../../interfaces/person';
 import { PersonDetailComponent } from '../person-detail/person-detail.component';
 import { PeopleService } from '../../services/people/people.service';
 
+import { ArraySortPipe } from '../../pipes/arraysort.pipe';
+
 @Component({
   selector: 'my-people',
   templateUrl: 'app/components/people/people.component.html',
   styleUrls: ['app/components/people/people.component.css'],
-  directives: [PersonDetailComponent]
+  directives: [PersonDetailComponent],
+  pipes: [ArraySortPipe]
 })
 
 export class PeopleComponent implements OnInit {
   public title = 'People';
   public people = [];
   public selectedPerson: Person;
+  public sortBy = 'firstName';
 
   //public time = new Date().toLocaleTimeString();
 
@@ -40,6 +44,10 @@ export class PeopleComponent implements OnInit {
   paired(person: Person) {
     if (!this.selectedPerson) return false;
     return this.selectedPerson['pairs'].indexOf(person.id) !== -1;
+  }
+
+  sort(sortBy: string) {
+    this.sortBy = sortBy;
   }
 
   gotoDetail() {
