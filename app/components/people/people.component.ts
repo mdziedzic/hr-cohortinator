@@ -1,20 +1,23 @@
-import { Component, OnInit } from 'angular2/core';
+import { Component, Input, OnInit } from 'angular2/core';
 import { Router } from 'angular2/router';
 
 import { Person } from '../../interfaces/person';
 import { PersonDetailComponent } from '../person-detail/person-detail.component';
+import { SearchBox } from '../search-box/search-box.component';
 import { PeopleService } from '../../services/people/people.service';
 import { ArraySortPipe } from '../../pipes/arraysort.pipe';
+import { SearchFilterPipe } from '../../pipes/searchfilter.pipe';
 
 @Component({
   selector: 'my-people',
   templateUrl: 'app/components/people/people.component.html',
   styleUrls: ['app/components/people/people.component.css'],
-  directives: [PersonDetailComponent],
-  pipes: [ArraySortPipe]
+  directives: [PersonDetailComponent, SearchBox],
+  pipes: [ArraySortPipe, SearchFilterPipe]
 })
 
 export class PeopleComponent implements OnInit {
+  @Input() term;
   public title = 'People';
   public people = [];
   public selectedPerson: Person;
