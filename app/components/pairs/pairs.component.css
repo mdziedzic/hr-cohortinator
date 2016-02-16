@@ -8,15 +8,9 @@
   float: right;
 }
 
-
 .avatar {
   float: left;
   width: 100px;
   height: 100px;
   margin: 2px 2px 2px 2px;
-}
-
-
-.selected {
-
 }

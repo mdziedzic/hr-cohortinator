@@ -4,7 +4,6 @@ import { Router } from 'angular2/router';
 import { Person } from '../../interfaces/person';
 import { PersonDetailComponent } from '../person-detail/person-detail.component';
 import { PeopleService } from '../../services/people/people.service';
-
 import { ArraySortPipe } from '../../pipes/arraysort.pipe';
 
 @Component({
@@ -20,9 +19,6 @@ export class PeopleComponent implements OnInit {
   public people = [];
   public selectedPerson: Person;
   public sortBy = 'firstName';
-
-  //public time = new Date().toLocaleTimeString();
-
 
   constructor(
     private _router: Router,
