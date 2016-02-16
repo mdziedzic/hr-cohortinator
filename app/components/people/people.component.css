@@ -4,11 +4,17 @@
   background-color: #eee;
 }
 
+.avatar {
+  float: left;
+  width: 100px;
+  height: 100px;
+  margin: 2px 2px 2px 2px;
+}
+
 .paired {
-  color: #f00;
-  background-color: #f00;
+  background-image:
 }
 
 .selected {
-  background-color: #0f0;
+
 }
