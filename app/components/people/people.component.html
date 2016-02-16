@@ -1,6 +1,6 @@
 <div class="people">
   <search-box (update)="term = $event" [term]="term"></search-box>
-  <div *ngFor="#person of people | sort:sortBy | search:term"
+  <div class="people-list" *ngFor="#person of people | sort:sortBy | search:term"
     [class.selected]="person === selectedPerson"
     (click)="onSelect(person)">
     <div class="itemLine" (click)="onSelect(person)"
