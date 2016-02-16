@@ -2,7 +2,8 @@
   <div *ngFor="#person of people | sort:sortBy"
     [class.selected]="person === selectedPerson"
     (click)="onSelect(person)">
-    <div class="itemLine" [class.selected]="person === selectedPerson">
+    <div class="itemLine" (click)="onSelect(person)"
+      [class.selected]="person === selectedPerson">
       <img src="../../../../images/{{ person.image }}.jpg" width="70" />
       <div class="info">
         <span class="firstname">{{ person.firstName }}</span>
@@ -11,6 +12,7 @@
         <span class="time">{{ localTime(person) }}</span>
       </div>
     </div>
+    <div class="bio" [class.bioOn]="person === selectedPerson">{{ person.bio }}</div>
   </div>
 </div>
 

@@ -8,7 +8,8 @@ export var PEOPLE: Person[] = [
     "location": "New York, NY",
     "timeDiff": 5,
     "pairs": [11, 14, 13, 0, 12, 10, 8, 6, 2, 16, 5, 17],
-    "image": "aimee"
+    "image": "aimee",
+    "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
     "id": 1,
@@ -17,7 +18,8 @@ export var PEOPLE: Person[] = [
     "location": "Denver, CO",
     "timeDiff": 6,
     "pairs": [13, 6, 1, 8, 19, 16, 3, 12, 5, 14, 11, 9, 2],
-    "image": "alex"
+    "image": "alex",
+    "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
     "id": 2,
@@ -26,7 +28,8 @@ export var PEOPLE: Person[] = [
     "location": "Chicago, IL",
     "timeDiff": 6,
     "pairs": [6, 18, 7, 17, 11, 5, 16, 4, 20, 0, 14, 13, 1],
-    "image": "andrew"
+    "image": "andrew",
+    "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
     "id": 3,
@@ -35,7 +38,8 @@ export var PEOPLE: Person[] = [
     "location": "Lexington, KY",
     "timeDiff": 5,
     "pairs": [20, 17, 12, 10, 14, 3, 1, 19, 4, 13, 6, 8, 5],
-    "image": "kris"
+    "image": "kris",
+    "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
     "id": 4,
@@ -44,7 +48,8 @@ export var PEOPLE: Person[] = [
     "location": "Maine",
     "timeDiff": 5,
     "pairs": [12, 4, 9, 13, 8, 6, 7, 2, 3, 18, 20, 17, 13],
-    "image": "brian"
+    "image": "brian",
+    "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
     "id": 5,
@@ -53,7 +58,8 @@ export var PEOPLE: Person[] = [
     "location": "Temple, GA",
     "timeDiff": 5,
     "pairs": [17, 7, 18, 15, 16, 2, 20, 1, 12, 11, 0, 3],
-    "image": "chris"
+    "image": "chris",
+    "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
     "id": 6,
@@ -62,7 +68,8 @@ export var PEOPLE: Person[] = [
     "location": "Anytown, USA",
     "timeDiff": 8,
     "pairs": [2, 1, 10, 20, 9, 4, 12, 13, 0, 17, 3, 14, 7],
-    "image": "colton"
+    "image": "colton",
+    "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
     "id": 7,
@@ -71,7 +78,8 @@ export var PEOPLE: Person[] = [
     "location": "Los Angeles, CA",
     "timeDiff": 8,
     "pairs": [16, 5, 2, 18, 20, 13, 4, 18, 8, 7, 15, 18, 6],
-    "image": "dan"
+    "image": "dan",
+    "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
     "id": 8,
@@ -80,7 +88,8 @@ export var PEOPLE: Person[] = [
     "location": "New York, NY",
     "timeDiff": 5,
     "pairs": [8, 19, 15, 1, 4, 11, 0, 20, 7, 10, 18, 3, 9],
-    "image": "elizabeth"
+    "image": "elizabeth",
+    "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
     "id": 9,
@@ -89,7 +98,8 @@ export var PEOPLE: Person[] = [
     "location": "San Luis Obispo, CA",
     "timeDiff": 8,
     "pairs": [10, 11, 4, 19, 6, 20, 18, 14, 12, 15, 5, 1, 8],
-    "image": "eric"
+    "image": "eric",
+    "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
     "id": 10,
@@ -98,7 +108,8 @@ export var PEOPLE: Person[] = [
     "location": "Salem, OR",
     "timeDiff": 8,
     "pairs": [9, 12, 6, 3, 15, 0, 11, 16, 19, 8, 17, 19, 10],
-    "image": "fanny"
+    "image": "fanny",
+    "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
     "id": 11,
@@ -107,7 +118,8 @@ export var PEOPLE: Person[] = [
     "location": "Indiana",
     "timeDiff": 5,
     "pairs": [0, 9, 20, 14, 2, 8, 10, 17, 18, 16, 1, 11, 15],
-    "image": "gordon"
+    "image": "gordon",
+    "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
     "id": 12,
@@ -116,7 +128,8 @@ export var PEOPLE: Person[] = [
     "location": "Norwalk, CT",
     "timeDiff": 5,
     "pairs": [4, 10, 3, 16, 0, 18, 6, 1, 9, 5, 14, 20, 18],
-    "image": "ian"
+    "image": "ian",
+    "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
     "id": 13,
@@ -125,7 +138,8 @@ export var PEOPLE: Person[] = [
     "location": "New York, NY",
     "timeDiff": 5,
     "pairs": [1, 15, 0, 4, 13, 7, 6, 14, 3, 2, 6, 4],
-    "image": "jt"
+    "image": "jt",
+    "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
     "id": 14,
@@ -134,7 +148,8 @@ export var PEOPLE: Person[] = [
     "location": "Phoenix, AZ",
     "timeDiff": 7,
     "pairs": [18, 0, 17, 11, 3, 19, 15, 9, 13, 1, 12, 2, 16],
-    "image": "john"
+    "image": "john",
+    "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
     "id": 15,
@@ -143,7 +158,8 @@ export var PEOPLE: Person[] = [
     "location": "Seattle, WA",
     "timeDiff": 8,
     "pairs": [19, 13, 8, 5, 10, 17, 14, 9, 15, 7, 16, 20, 11],
-    "image": "michael"
+    "image": "michael",
+    "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
     "id": 16,
@@ -152,7 +168,8 @@ export var PEOPLE: Person[] = [
     "location": "Chicago, IL",
     "timeDiff": 6,
     "pairs": [7, 20, 19, 12, 5, 1, 2, 10, 17, 11, 0, 15, 14],
-    "image": "mike"
+    "image": "mike",
+    "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
     "id": 17,
@@ -161,7 +178,8 @@ export var PEOPLE: Person[] = [
     "location": "Houston, TX",
     "timeDiff": 6,
     "pairs": [5, 7, 14, 2, 18, 15, 19, 11, 16, 6, 10, 4, 0],
-    "image": "sanford"
+    "image": "sanford",
+    "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
     "id": 18,
@@ -170,7 +188,8 @@ export var PEOPLE: Person[] = [
     "location": "Portland, OR",
     "timeDiff": 8,
     "pairs": [14, 2, 5, 7, 17, 12, 9, 7, 11, 4, 8, 7, 12],
-    "image": "steven"
+    "image": "steven",
+    "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
     "id": 19,
@@ -179,7 +198,8 @@ export var PEOPLE: Person[] = [
     "location": "Irvine, CA",
     "timeDiff": 8,
     "pairs": [15, 8, 16, 9, 1, 14, 17, 3, 10, 20, 19, 10, 20],
-    "image": "tim"
+    "image": "tim",
+    "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
     "id": 20,
@@ -188,6 +208,7 @@ export var PEOPLE: Person[] = [
     "location": "San Francisco, CA",
     "timeDiff": 8,
     "pairs": [3, 16, 11, 6, 7, 9, 5, 8, 2, 19, 4, 12, 15, 19],
-    "image": "tyler"
+    "image": "tyler",
+    "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
 ];

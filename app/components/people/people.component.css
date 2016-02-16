@@ -47,3 +47,15 @@ p.searchBy {
   font-weight: 600;
   color: #bbb;
 }
+
+.bio {
+  display: none;
+  margin: -15px 0 15px 0;
+  padding: 30px 50px 30px 90px;
+  background: #eee;
+  font-weight: 300;
+}
+
+.bioOn {
+  display: block;
+}

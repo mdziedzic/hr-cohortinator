@@ -34,7 +34,10 @@ export class PeopleComponent implements OnInit {
   }
 
   onSelect(person: Person) {
-    this.selectedPerson = person;
+    if (this.selectedPerson !== person) {
+      this.selectedPerson = person;
+    } else {
+    }
   }
 
   localTime(person: Person) {
@@ -45,6 +48,10 @@ export class PeopleComponent implements OnInit {
 
   sort(sortBy: string) {
     this.sortBy = sortBy;
+  }
+
+  bio(person: Person) {
+    console.log('bobby');
   }
 
   gotoDetail() {

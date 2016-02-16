@@ -6,4 +6,5 @@ export interface Person {
   timeDiff: number;
   pairs: number[];
   image: string;
+  bio: string;
 }

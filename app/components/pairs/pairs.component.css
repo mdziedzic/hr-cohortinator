@@ -14,3 +14,7 @@
   height: 100px;
   margin: 2px 2px 2px 2px;
 }
+
+.bw {
+  opacity: 0.5;
+}
