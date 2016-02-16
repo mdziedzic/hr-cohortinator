@@ -12,14 +12,4 @@
     </div>
   </div>
 </div>
-Sort by: <span (click)="sort('firstName')">First Name</span>
-<span (click)="sort('lastName')">Last Name</span>
-<span (click)="sort('location')">Location</span>
-<br /><br /><br />
-<div *ngIf="selectedPerson">
-  <my-person-detail [selectedPerson]="selectedPerson"></my-person-detail>
-  <!-- <h2>
-    {{ selectedPerson.firstName }} {{ selectedPerson.lastName }}
-  </h2>
-  <button (click)="gotoDetail()">View Details</button> -->
-</div>
+<p class="searchBy">Sort by:&nbsp;&nbsp;<span (click)="sort('firstName')">First</span> - <span (click)="sort('lastName')">Last</span> - <span (click)="sort('location')">Location</span></p>

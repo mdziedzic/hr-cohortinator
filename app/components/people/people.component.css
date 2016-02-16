@@ -31,9 +31,13 @@ img {
   margin-left: 20px;
 }
 
-.avatar {
+.searchBy,
+.searchby span {
+  font-size: 16px;
+  font-weight: 600;
+  color: #ccc;
 }
 
-.selected {
-
+p.searchBy {
+  margin-top: 20px;
 }
