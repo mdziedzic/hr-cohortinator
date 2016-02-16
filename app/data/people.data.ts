@@ -7,7 +7,7 @@ export var PEOPLE: Person[] = [
     "lastName": "Rosato",
     "location": "New York, NY",
     "timeDiff": 5,
-    "pairs": [11, 14, 13, 12, 10, 8, 6, 2, 16, 5, 17],
+    "pairs": [11, 14, 13, 0, 12, 10, 8, 6, 2, 16, 5, 17],
     "image": "aimee"
   },
   {
@@ -16,7 +16,7 @@ export var PEOPLE: Person[] = [
     "lastName": "Ko",
     "location": "Denver, CO",
     "timeDiff": 6,
-    "pairs": [13, 6, 8, 19, 16, 3, 12, 5, 14, 11, 9, 2],
+    "pairs": [13, 6, 1, 8, 19, 16, 3, 12, 5, 14, 11, 9, 2],
     "image": "alex"
   },
   {
@@ -34,7 +34,7 @@ export var PEOPLE: Person[] = [
     "lastName": "Burke",
     "location": "Lexington, KY",
     "timeDiff": 5,
-    "pairs": [20, 17, 12, 10, 14, 1, 19, 4, 13, 6, 8, 5],
+    "pairs": [20, 17, 12, 10, 14, 3, 1, 19, 4, 13, 6, 8, 5],
     "image": "kris"
   },
   {
@@ -43,7 +43,7 @@ export var PEOPLE: Person[] = [
     "lastName": "Moore",
     "location": "Maine",
     "timeDiff": 5,
-    "pairs": [12, 9, 13, 8, 6, 7, 2, 3, 18, 20, 17, 13],
+    "pairs": [12, 4, 9, 13, 8, 6, 7, 2, 3, 18, 20, 17, 13],
     "image": "brian"
   },
   {
@@ -70,7 +70,7 @@ export var PEOPLE: Person[] = [
     "lastName": "Molitor",
     "location": "Los Angeles, CA",
     "timeDiff": 8,
-    "pairs": [16, 5, 2, 18, 20, 13, 4, 18, 8, 15, 18, 6],
+    "pairs": [16, 5, 2, 18, 20, 13, 4, 18, 8, 7, 15, 18, 6],
     "image": "dan"
   },
   {
@@ -79,7 +79,7 @@ export var PEOPLE: Person[] = [
     "lastName": "Sciortino",
     "location": "New York, NY",
     "timeDiff": 5,
-    "pairs": [19, 15, 1, 4, 11, 0, 20, 7, 10, 18, 3, 9],
+    "pairs": [8, 19, 15, 1, 4, 11, 0, 20, 7, 10, 18, 3, 9],
     "image": "elizabeth"
   },
   {
@@ -97,7 +97,7 @@ export var PEOPLE: Person[] = [
     "lastName": "Vasquez",
     "location": "Salem, OR",
     "timeDiff": 8,
-    "pairs": [9, 12, 6, 3, 15, 0, 11, 16, 19, 8, 17, 19],
+    "pairs": [9, 12, 6, 3, 15, 0, 11, 16, 19, 8, 17, 19, 10],
     "image": "fanny"
   },
   {
@@ -106,7 +106,7 @@ export var PEOPLE: Person[] = [
     "lastName": "Buhler",
     "location": "Indiana",
     "timeDiff": 5,
-    "pairs": [0, 9, 20, 14, 2, 8, 10, 17, 18, 16, 1, 15],
+    "pairs": [0, 9, 20, 14, 2, 8, 10, 17, 18, 16, 1, 11, 15],
     "image": "gordon"
   },
   {
@@ -124,7 +124,7 @@ export var PEOPLE: Person[] = [
     "lastName": "Yim",
     "location": "New York, NY",
     "timeDiff": 5,
-    "pairs": [1, 15, 0, 4, 7, 6, 14, 3, 2, 6, 4],
+    "pairs": [1, 15, 0, 4, 13, 7, 6, 14, 3, 2, 6, 4],
     "image": "jt"
   },
   {
@@ -142,7 +142,7 @@ export var PEOPLE: Person[] = [
     "lastName": "Dziedzic",
     "location": "Seattle, WA",
     "timeDiff": 8,
-    "pairs": [19, 13, 8, 5, 10, 17, 14, 9, 7, 16, 20, 11],
+    "pairs": [19, 13, 8, 5, 10, 17, 14, 9, 15, 7, 16, 20, 11],
     "image": "michael"
   },
   {
@@ -178,7 +178,7 @@ export var PEOPLE: Person[] = [
     "lastName": "Dang",
     "location": "Irvine, CA",
     "timeDiff": 8,
-    "pairs": [15, 8, 16, 9, 1, 14, 17, 3, 10, 20, 10, 20],
+    "pairs": [15, 8, 16, 9, 1, 14, 17, 3, 10, 20, 19, 10, 20],
     "image": "tim"
   },
   {

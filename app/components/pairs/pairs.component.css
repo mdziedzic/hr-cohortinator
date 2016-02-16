@@ -1,6 +1,7 @@
 .people{
   width: 450px;
   float: left;
+  margin-bottom: 50px;
 }
 
 .selected-person {

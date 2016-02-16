@@ -1,5 +1,5 @@
 .person-detail {
-  margin: 0 100px 0 0;
+  margin: 0 100px 50px 0;
 }
 
 .name {
@@ -7,3 +7,12 @@
   font-size: 20px;
   font-weight: 400;
 }
+
+.unpaired {
+  color: #ccc;
+}
+
+.pair-list {
+  font-size: 15px;
+  font-weight: 400;
+}5
