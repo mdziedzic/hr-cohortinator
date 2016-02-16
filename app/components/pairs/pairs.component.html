@@ -1,5 +1,5 @@
 <div class="people">
-  <div *ngFor="#person of people"
+  <div *ngFor="#person of people | sort:sortBy"
     [class.selected]="person === selectedPerson"
     [class.paired]="paired(person)"
     (click)="onSelect(person)">

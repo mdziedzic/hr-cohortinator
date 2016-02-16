@@ -5,17 +5,22 @@ import { Person } from '../../interfaces/person';
 import { PersonDetailComponent } from '../person-detail/person-detail.component';
 import { PeopleService } from '../../services/people/people.service';
 
+import { ArraySortPipe } from '../../pipes/arraysort.pipe';
+
+
 @Component({
   selector: 'my-pairs',
   templateUrl: 'app/components/pairs/pairs.component.html',
   styleUrls: ['app/components/pairs/pairs.component.css'],
-  directives: [PersonDetailComponent]
+  directives: [PersonDetailComponent],
+  pipes: [ArraySortPipe]
 })
 
 export class PairsComponent implements OnInit {
   public title = 'Pairs';
   public people = [];
   public selectedPerson: Person;
+  public sortBy = 'firstName';
 
   //public time = new Date().toLocaleTimeString();
 
