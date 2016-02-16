@@ -2,7 +2,6 @@ import { Component } from 'angular2/core';
 import { RouteConfig, ROUTER_DIRECTIVES, ROUTER_PROVIDERS } from 'angular2/router';
 
 import { PeopleService } from '../../services/people/people.service';
-
 import { PeopleComponent } from '../../components/people/people.component';
 import { PairsComponent } from '../../components/pairs/pairs.component';
 import { PersonDetailComponent } from '../person-detail/person-detail.component';
