@@ -1,0 +1,9 @@
+.person-detail {
+  margin: 0 100px 0 0;
+}
+
+.name {
+  margin-top: 5px;
+  font-size: 20px;
+  font-weight: 400;
+}

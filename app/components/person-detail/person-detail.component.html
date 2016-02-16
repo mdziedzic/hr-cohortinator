@@ -1,5 +1,18 @@
-<h2>
-  {{ selectedPerson.firstName }} {{ selectedPerson.lastName }}<br />
-  {{ selectedPerson.location}}<br />
-  <img src="../../../images/{{ selectedPerson.image }}.jpg" />
-</h2>
+<div class="person-detail">
+  <img src="../../../images/{{ selectedPerson.image }}.jpg" /><br />
+  <div class="name">
+    {{ selectedPerson.firstName }} {{ selectedPerson.lastName }}
+  </div>
+
+  <div *ngFor="#person of people">
+    <div [ngSwitch]="paired(person)">
+      <template [ngSwitchWhen]="false">
+        <!-- {{ person.firstName }} {{ person.lastName }} -->
+      </template>
+      <template [ngSwitchWhen]="true">
+        {{ person.firstName }} {{ person.lastName }}
+      </template>
+    </div>
+  </div>
+
+</div>

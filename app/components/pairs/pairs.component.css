@@ -1,8 +1,12 @@
-.itemLine {
-  margin: 0 0 10px 0;
-  padding: 10px;
-  background-color: #eee;
+.people{
+  width: 450px;
+  float: left;
 }
+
+.selected-person {
+  float: right;
+}
+
 
 .avatar {
   float: left;
@@ -11,9 +15,6 @@
   margin: 2px 2px 2px 2px;
 }
 
-.paired {
-  background-image:
-}
 
 .selected {
 

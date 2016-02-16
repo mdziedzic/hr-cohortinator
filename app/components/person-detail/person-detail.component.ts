@@ -13,7 +13,9 @@ import { Person } from '../../interfaces/person';
 
 export class PersonDetailComponent {
   @Input() selectedPerson: Person;
+  @Input() paired;
   person: Person;
+  public people = [];
 
   constructor(
     private _peopleService: PeopleService,
@@ -21,12 +23,14 @@ export class PersonDetailComponent {
   }
 
   ngOnInit() {
+    this.getPeople();
+
     let id = this.selectedPerson.id;
     this._peopleService.getPerson(id)
       .then(person => this.person = person);
   }
 
-  goBack() {
-    window.history.back();
+  getPeople() {
+    this._peopleService.getPeople().then(people => this.people = people);
   }
 }

@@ -21,8 +21,8 @@
   </div>
 </div>
 <br /><br /><br />
-<div *ngIf="selectedPerson">
-  <my-person-detail [selectedPerson]="selectedPerson"></my-person-detail>
+<div class="selected-person" *ngIf="selectedPerson">
+  <my-person-detail [selectedPerson]="selectedPerson" [people]="people" [paired]="paired"></my-person-detail>
   <!-- <h2>
     {{ selectedPerson.firstName }} {{ selectedPerson.lastName }}
   </h2>
