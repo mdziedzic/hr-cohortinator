@@ -5,13 +5,13 @@ import { Person } from '../../interfaces/person';
 import { PersonDetailComponent } from '../person-detail/person-detail.component';
 import { PeopleService } from '../../services/people/people.service';
 import { ArraySortPipe } from '../../pipes/arraysort.pipe';
-
+import { HighlightDirective } from '../../directives/highlight.directive';
 
 @Component({
   selector: 'my-pairs',
   templateUrl: 'app/components/pairs/pairs.component.html',
   styleUrls: ['app/components/pairs/pairs.component.css'],
-  directives: [PersonDetailComponent],
+  directives: [PersonDetailComponent, HighlightDirective],
   pipes: [ArraySortPipe]
 })
 

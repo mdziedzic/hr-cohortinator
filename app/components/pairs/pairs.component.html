@@ -6,7 +6,7 @@
     <div class="avatar" [class.selected]="person === selectedPerson">
       <div [ngSwitch]="paired(person) || person === selectedPerson">
         <template [ngSwitchWhen]="false">
-          <img class="bw" src="../../../../images/{{ person.image }}-bw.jpg" width="100" height="100" />
+          <img myHighlight class="bw" src="../../../../images/{{ person.image }}-bw.jpg" width="100" height="100" />
         </template>
         <template [ngSwitchWhen]="true">
           <img src="../../../../images/{{ person.image }}.jpg" width="100" height="100" />
