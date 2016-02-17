@@ -46,7 +46,12 @@ export class PeopleComponent implements OnInit {
   localTime(person: Person) {
     var utc = new Date().getTime();
     var time = utc - (person.timeDiff - 8) * 3600000;
-    return new Date(time).toLocaleString();
+    var hours = new Date(time).getHours();
+    var minutes = new Date(time).getMinutes();
+    var amPm = hours < 12 ? ' AM' : ' PM';
+    if (hours > 12) hours -= 12;
+    var shortenTime = hours + ':' + minutes + amPm;
+    return shortenTime;
   }
 
   sort(sortBy: string) {
