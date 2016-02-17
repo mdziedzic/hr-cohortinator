@@ -20,6 +20,8 @@ img {
 }
 
 .info {
+  position: relative;
+  width: 88%;
   margin: 25px 0 0 20px;
   float: left;
 }
@@ -46,7 +48,9 @@ p.searchBy {
 }
 
 .time {
-  margin-left: 40px;
+  position: absolute;
+  right: 0;
+  margin-top: -20px;
   font-size: 14px;
   font-weight: 600;
   color: #bbb;
