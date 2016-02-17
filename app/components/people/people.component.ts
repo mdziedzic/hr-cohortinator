@@ -48,6 +48,7 @@ export class PeopleComponent implements OnInit {
     var time = utc - (person.timeDiff - 8) * 3600000;
     var hours = new Date(time).getHours();
     var minutes = new Date(time).getMinutes();
+    if (minutes < 10) minutes = '0' + minutes;
     var amPm = hours < 12 ? ' AM' : ' PM';
     if (hours > 12) hours -= 12;
     var shortenTime = hours + ':' + minutes + amPm;
