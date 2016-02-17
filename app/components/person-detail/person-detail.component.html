@@ -3,7 +3,7 @@
   <div class="name">
     {{ selectedPerson.firstName }} {{ selectedPerson.lastName }}
   </div>
-  <br />
+  <br /><br />
 
   <div *ngFor="#person of people" class="pair-list">
     <div [ngSwitch]="paired(person)">
