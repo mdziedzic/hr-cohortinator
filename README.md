@@ -15,4 +15,4 @@ This is a project I completed as a student at [Hack Reactor Remote Beta](http://
 4. Run `npm tsc:w` to run the TypeScript compiler in watch mode which keeps an eye out for any changes to TypeScript files and recompiles them as necessary
 5. Run `npm run lite` to run the lite-server, a light-weight, static file server with support for Angular apps that use routing
 6. Run `npm typings` to run the typings tool
-7. Run `npm run postinstall` is called by npm automatically after it successfully completes package installation.
+7. `npm run postinstall` is called by npm automatically after it successfully completes package installation.
