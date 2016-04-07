@@ -13,4 +13,3 @@ System.register(['angular2/platform/browser', './components/app/app.component'],
         }
     }
 });
-//# sourceMappingURL=main.js.map
