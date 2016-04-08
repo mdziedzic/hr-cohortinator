@@ -1,6 +1,9 @@
 # HR Cohortinator
 This is a project I completed as a student at [Hack Reactor Remote Beta](http://www.hackreactor.com/remote-beta) during a 2-day solo sprint as a means to experiment with Angular2 (beta) and TypeScript.
 
+![alt tag](./screenshot.png "HR Cohortinator")
+![alt tag](./screenshot2.png "HR Cohortinator")
+
 ## Getting Started
 
 ### Prerequisites
